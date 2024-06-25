@@ -1,6 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 #card{
     background-color: black;
 }
 #card-body{
-   background-color: goldenrod;
+    background-color: goldenrod;
+}
+#modal-header{
+    background-color: black;
+    color: white;
+}
+#btn-close{
+    background-color: white;
+}
+#btn-close:hover{
+    background-color: red;
+    transform: scale(1.05);
+}
+#modal-footer1{
+    background-color: black;
+    color: white;
+}
+#modal-footer{
+    background-color: black;
+    color: white;
+}
+#btn-add {
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#btn-add:hover {
+    background-color: #04f43b;
+    transform: scale(1.05);
 }
