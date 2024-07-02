@@ -57,3 +57,18 @@
     width: 1300px;
     height: 700px;
 }
+
+
+#card-details3{
+    background-color: #033a3f;
+    color: #f2f4f6;
+}
+#card-details1{
+    background-color: goldenrod;
+    align-items: center;
+
+
+}
+#card-img img{
+    background-color: #04f43b;
+}
