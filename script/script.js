@@ -1,5 +1,8 @@
+
+/*define arra*/
 var student=[];
 
+/*push data*/
 $("#btn-save").click(function(){
     var name = $("#name").val();
     var birthday = $("#birthday").val();
@@ -13,4 +16,13 @@ $("#btn-save").click(function(){
     };
     student.push(obj);
     console.log(student);
+
+    alert("Student added successfully");
+
+
+    /*clear input field*/
+    $("#name").val("");
+    $("#birthday").val("");
+    $("#address").val("");
+    $("#contact").val("");
 });
