@@ -1,80 +1,8 @@
-/*
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
-
-#card{
-    background-color: black;
-}
-#card-body{
-    background-color: goldenrod;
-}
-#modal-header{
-    background-color: black;
-    color: white;
-}
-#btn-close{
-    background-color: white;
-}
-#btn-close:hover{
-    background-color: red;
-    transform: scale(1.05);
-}
-#modal-footer1{
-    background-color: black;
-    color: white;
-}
-#modal-footer{
-    background-color: black;
-    color: white;
-}
-#btn-add {
-    background-color: #28a745;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-
-#btn-add:hover {
-    background-color: #04f43b;
-    transform: scale(1.05);
-}
-#nav-bar{
-    background-color: #033a3f;
-    height: 60px;
-}
-#description{
-    color: white;
-}
-#card-content{
-    align-items: center;
-    justify-content: center;
-    background-color: #f2f4f6;
-    width: 1300px;
-    height: 700px;
-}
-
-
-#card-details3{
-    background-color: #033a3f;
-    color: #f2f4f6;
-}
-#card-details1{
-    background-color: goldenrod;
-    align-items: center;
-
-
-}
-#card-img img{
-    background-color: #04f43b;
-}*/
-
-
 .navbar{
     background-color: #032830;
 }
