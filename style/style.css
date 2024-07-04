@@ -1,3 +1,4 @@
+/*
 *{
     margin: 0;
     padding: 0;
@@ -71,4 +72,45 @@
 }
 #card-img img{
     background-color: #04f43b;
+}*/
+
+
+.navbar{
+    background-color: #032830;
+}
+
+#logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+
+#addStudent{
+    position: relative;
+    width: 100vw;
+    height: auto;
+}
+
+#btnAddStudent{
+    position: absolute;
+    top: 30px;
+    right: 40px;
+    background-color: #032830;
+    color: white;
+}
+
+.add-btn{
+    width: 500px;
+}
+
+#studentDetails{
+    position: relative;
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    top: 130px;
 }
