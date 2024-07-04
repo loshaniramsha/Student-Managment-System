@@ -97,12 +97,26 @@
     position: absolute;
     top: 30px;
     right: 40px;
-    background-color: #032830;
+    background-color: #0e3003;
     color: white;
 }
 
 .add-btn{
-    width: 500px;
+    width: 200px;
+    align-items: center;
+    margin-right: 70px;
+}
+#modal-btn-add{
+    width: 200px;
+    margin-right: 120px;
+}
+
+#btn-close{
+    background-color: white;
+}
+#btn-close:hover{
+    background-color: red;
+    transform: scale(1.05);
 }
 
 #studentDetails{
@@ -113,4 +127,12 @@
     flex-wrap: wrap;
     justify-content: space-around;
     top: 130px;
+}
+#modal-header{
+    background-color:  #032830;
+    color: white;
+}
+#modal-footer{
+    background-color: #032830;
+    color: white;
 }
